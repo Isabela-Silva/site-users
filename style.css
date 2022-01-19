@@ -1,0 +1,223 @@
+body{
+    margin: 0;
+    height: 100vh;
+    width: 100vw;
+    padding: 0;
+    display: flex;
+    gap: 50px;
+
+} 
+/*  all left site here*/
+.container {
+    width: 720px;
+    height: 902px;
+    padding-top: 100px;
+}
+.container .container-content{
+    width: 500px;
+    margin: auto;
+}
+.search-box {
+    display: flex;
+    justify-content: space-between;
+    width: 450px;
+    padding-top: 20px;
+    padding-bottom: 5px;
+    border-bottom: 3px solid #CACACA;
+    align-items: center;
+    margin: 0 auto;
+}
+
+.divider {
+    padding-top: 30px;
+    padding-bottom: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.cards{
+    width: 420px;
+    height: 250px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    place-items: center;
+
+
+}
+/* all right site here,
+
+*/
+.forms {
+    height: 902px;
+    margin-left: 60px;
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+
+}
+.forms-content {
+    width: 350px;
+}
+/* text head*/
+
+.text-head h3 {
+    font-family: Merriweather;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 20px;
+    letter-spacing: 0em;
+    text-align: left;
+
+}
+
+.text-head h1 {
+    font-family: Merriweather;
+    font-size: 26px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 33px;
+    letter-spacing: 0em;
+    text-align: left;
+
+
+}
+/* mail and password*/
+
+.inputs{
+    display: flex;
+    flex-direction: column;
+    font-family: Lato;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 19px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #1A202C;
+
+}
+.inputs input {
+    width: 350px;
+    height: 50px;
+    margin-top: 11px;
+    margin-bottom: 11px;
+    border-color: #E8E8E8;
+    border-radius: 5px;
+}
+
+.buttons {
+    display: flex;
+    flex-direction: column;
+    gap: 2px;
+}
+
+
+.text-option {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 10px;
+    font-family: Lato;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 17px;
+    letter-spacing: 0em;
+    text-align: left;
+
+}
+.text-option .check-box {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1px;
+}
+.text-option a {
+    color: #2B6CB0 ;
+    text-decoration: none;
+}
+.buttons {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    font-family: Lato;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 19px;
+    letter-spacing: 0em;
+    text-align: left;
+
+}
+.buttons button:first-child {
+    background: #04C35C;
+    border: none;
+    border-radius: 5px;
+    color: #ffffff;;
+}
+
+.buttons button:last-child {
+    background: #1A202C;
+    color: #ffffff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 7px;
+
+}
+.buttons button {
+    width: 347px;
+    height: 50px;
+    border-radius: 5px;
+
+}
+
+.text-footer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    font-family: Lato;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 19px;
+    letter-spacing: 0em;
+    text-align: left;
+    margin-top: 50px;
+
+    
+    
+}
+.text-footer a {
+   
+    text-decoration: none;
+    color: #2B6CB0;
+
+}
+@media (max-width: 320px) {
+    body {
+        display: flex;
+        flex-direction: column;
+    }
+    .forms {
+        margin-left: 190px;
+        margin-right: 190px;
+    }
+}
+
+@media (max-width: 768px) {
+    body {
+        display: flex;
+        flex-direction: column;
+    }
+    .forms {
+        margin-left: 190px;
+        margin-right: 190px;
+    }
+}
