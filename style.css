@@ -300,5 +300,7 @@ body{
     }
     .forms {
         margin: 0;
+         align-items: center;
+        margin-top: 40px;
     }
 }
