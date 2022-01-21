@@ -219,6 +219,8 @@ body{
         width: 320px;
         height: 400px;
         margin: 0;
+        align-items: center;
+
     }
     .forms-content {
         align-items: center;
