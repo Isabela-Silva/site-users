@@ -200,14 +200,91 @@ body{
     color: #2B6CB0;
 
 }
+.text-footer {
+    margin-top: 25px;
+}
 @media (max-width: 320px) {
     body {
         display: flex;
         flex-direction: column;
+        width: 320px;
+        height: 547px;
     }
+    .container {
+        display: none;
+    }
+
+    
     .forms {
-        margin-left: 190px;
-        margin-right: 190px;
+        width: 320px;
+        height: 400px;
+        margin: 0;
+    }
+    .forms-content {
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        width: 290px;
+        margin-top: 20px;
+    }
+    .text-head h3 {
+        align-items: center;
+        text-align: center;
+        align-items: center;
+        font-size: 11px;
+
+    }
+   
+    .text-head h1 {
+        font-size: 16px;
+        align-items: center;
+        text-align: center;
+        align-items: center;
+    }
+
+    .inputs label {
+        font-size: 14px;
+    }
+    .text-option p {
+        font-size: 10px;
+    }
+    .text-option a {
+        font-size: 10px;
+    }
+    .buttons button {
+        font-size: 10px;
+    }
+    .text-footer {
+        font-size: 10px;
+    }
+    .inputs {
+        align-items: center;
+
+    } 
+    
+    .inputs input {
+        width: 190px;
+        height: 30px;
+        align-items: center;
+      
+
+
+    }
+    .text-option {
+        justify-content: unset;
+        justify-content: center;
+        gap: 20px;
+        
+    }
+    .buttons {
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        margin: auto;
+    }
+    .buttons button {
+        width: 190px;
+        height: 30px;
     }
 }
 
@@ -216,8 +293,10 @@ body{
         display: flex;
         flex-direction: column;
     }
+    .container{
+        display: none;
+    }
     .forms {
-        margin-left: 190px;
-        margin-right: 190px;
+        margin: 0;
     }
 }
